@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import styles from './postPreview.module.css';
 
-function PostPreview(props) {
+function PostPreview(props:any) {
   return (
     <div className={`${styles.card}  group relative overflow-hidden rounded-lg border transition-shadow duration-300`}>
       <div className={`${styles.gradient} absolute inset-0 z-10 opacity-0 group-hover:opacity-100`} />
@@ -24,7 +24,7 @@ function PostPreview(props) {
   );
 }
 
-function ArrowRightIcon(props) {
+function ArrowRightIcon(props:any) {
   return (
     <svg
       {...props}
