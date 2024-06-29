@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 function Page() {
   return (
-    <article className="container mx-auto px-4 py-10 bg-white shadow-lg rounded-lg">
+    <article className="container mx-auto px-4 py-10  shadow-lg rounded-lg">
       <header className="mb-8 border-b pb-4">
         <Link href="/services/useCases">         <div className="text-blue-500 pb-10 pt-8">&lt; Back to Case Studies</div>       </Link>
         <h1 className="text-4xl font-bold mb-2 text-gray-800">
