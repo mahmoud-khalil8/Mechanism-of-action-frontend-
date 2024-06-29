@@ -16,82 +16,92 @@ const Results = () => {
   const [visualizationJSON, setVisualizationJSON] = useState(null);
 
   useEffect(() => {
-    const fetchPreviewData = async () => {
-      try {
-        const response = await axios.get("http://localhost:5000/preview");
-        setPreviewData(response.data);
-      } catch (error) {
-        console.error("Error fetching preview data:", error);
-      }
-    };
+    if (typeof window !== 'undefined') {
+      const fetchPreviewData = async () => {
+        try {
+          const response = await axios.get("http://localhost:5000/preview");
+          setPreviewData(response.data);
+        } catch (error) {
+          console.error("Error fetching preview data:", error);
+        }
+      };
 
-    fetchPreviewData();
+      fetchPreviewData();
+    }
   }, []);
 
   useEffect(() => {
-    const fetchDatasetDetails = async () => {
-      try {
-        const response = await axios.get(
-          "http://localhost:5000/dataset_details"
-        );
-        setDatasetDetails(response.data);
-      } catch (error) {
-        console.error("Error fetching dataset details:", error);
+    if (typeof window !== 'undefined') {
+      const fetchDatasetDetails = async () => {
+        try {
+          const response = await axios.get(
+            "http://localhost:5000/dataset_details"
+          );
+          setDatasetDetails(response.data);
+        } catch (error) {
+          console.error("Error fetching dataset details:", error);
+        }
+      };
+      if (activeTab === "Data") {
+        fetchDatasetDetails();
       }
-    };
-    if (activeTab === "Data") {
-      fetchDatasetDetails();
     }
   }, [activeTab]);
 
   useEffect(() => {
-    const fetchJSONs = async () => {
-      try {
-        const top20Response = await axios.get(
-          "http://localhost:5000/top_20_json"
-        );
-        setTop20JSON(JSON.parse(top20Response.data.json));
+    if (typeof window !== 'undefined') {
+      const fetchJSONs = async () => {
+        try {
+          const top20Response = await axios.get(
+            "http://localhost:5000/top_20_json"
+          );
+          setTop20JSON(JSON.parse(top20Response.data.json));
 
-        const lowest20Response = await axios.get(
-          "http://localhost:5000/lowest_20_json"
-        );
-        setLowest20JSON(JSON.parse(lowest20Response.data.json));
+          const lowest20Response = await axios.get(
+            "http://localhost:5000/lowest_20_json"
+          );
+          setLowest20JSON(JSON.parse(lowest20Response.data.json));
 
-        setIsJSONFetched(true);
-      } catch (error) {
-        console.error("Error fetching JSONs:", error);
+          setIsJSONFetched(true);
+        } catch (error) {
+          console.error("Error fetching JSONs:", error);
+        }
+      };
+
+      if (activeTab === "Insights" && !isJSONFetched) {
+        fetchJSONs();
       }
-    };
-
-    if (activeTab === "Insights" && !isJSONFetched) {
-      fetchJSONs();
     }
   }, [activeTab, isJSONFetched]);
 
   const handleDownload = async () => {
-    try {
-      const response = await axios.get("http://localhost:5000/download", {
-        responseType: "blob",
-      });
-      const url = window.URL.createObjectURL(new Blob([response.data]));
-      const link = document.createElement("a");
-      link.href = url;
-      link.setAttribute("download", "prediction.csv");
-      document.body.appendChild(link);
-      link.click();
-    } catch (error) {
-      console.error("Error downloading file:", error);
+    if (typeof window !== 'undefined') {
+      try {
+        const response = await axios.get("http://localhost:5000/download", {
+          responseType: "blob",
+        });
+        const url = window.URL.createObjectURL(new Blob([response.data]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "prediction.csv");
+        document.body.appendChild(link);
+        link.click();
+      } catch (error) {
+        console.error("Error downloading file:", error);
+      }
     }
   };
 
   const handleFetchVisualization = async () => {
-    try {
-      const response = await axios.get(
-        `http://localhost:5000/visualize?name_column=${columnName}`
-      );
-      setVisualizationJSON(JSON.parse(response.data.json));
-    } catch (error) {
-      console.error("Error fetching visualization:", error);
+    if (typeof window !== 'undefined') {
+      try {
+        const response = await axios.get(
+          `http://localhost:5000/visualize?name_column=${columnName}`
+        );
+        setVisualizationJSON(JSON.parse(response.data.json));
+      } catch (error) {
+        console.error("Error fetching visualization:", error);
+      }
     }
   };
 
@@ -164,7 +174,6 @@ const Results = () => {
   const visualizeDatasetDetails = () => {
     return (
       <div className={styles.datasetDetailsBox}>
-        {/* <div className={styles.visualizationBox}> */}
         <h3 className={styles.textXl}>Enter Column Name for Visualization:</h3>
         <input
           type="text"
@@ -175,7 +184,6 @@ const Results = () => {
         <Button onClick={handleFetchVisualization} className="mt-4">
           Visualize
         </Button>
-        {/* </div> */}
         {visualizationJSON && (
           <Plot
             data={visualizationJSON.data}
@@ -247,7 +255,6 @@ const Results = () => {
               >
                 Some valuable insights about the prediction results
               </h3>
-              {/* <div className="space-y-6"> */}
               {top20JSON ? (
                 <div className={styles.insightBox}>
                   <h3
@@ -272,7 +279,6 @@ const Results = () => {
               ) : (
                 <p>Loading lowest 20 graph...</p>
               )}
-              {/* </div> */}
             </div>
           )}
           {activeTab === "Data" && (
