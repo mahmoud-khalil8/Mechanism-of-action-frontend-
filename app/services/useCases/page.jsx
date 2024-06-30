@@ -26,7 +26,7 @@ export default function Component() {
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         <Highlight className="text-black dark:text-white">
-           Moa classifications
+           MoA classifications
         </Highlight>
 <div className="text-lg pt-10">
 Classified based on their therputic effect</div>
