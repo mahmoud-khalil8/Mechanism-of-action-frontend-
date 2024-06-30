@@ -298,6 +298,7 @@ const getRouteForSuggestion = (suggestion) => {
 const SearchBar = () => {
   const [query, setQuery] = useState("");
   const [suggestions, setSuggestions] = useState([]);
+  const [noMatch, setNoMatch] = useState(false); // New state for no match found message
   const router = useRouter();
 
   const handleInputChange = (e) => {
@@ -309,8 +310,10 @@ const SearchBar = () => {
         suggestion.toLowerCase().includes(value.toLowerCase())
       );
       setSuggestions(filteredSuggestions);
+      setNoMatch(filteredSuggestions.length === 0); // Set noMatch based on suggestions
     } else {
       setSuggestions([]);
+      setNoMatch(false);
     }
   };
 
@@ -321,34 +324,43 @@ const SearchBar = () => {
     }
     setQuery("");
     setSuggestions([]);
+    setNoMatch(false); // Reset noMatch state
   };
 
   return (
-    <div className="relative">
-      <div className={styles.searchContainer}>
-        <input
-          type="text"
-          value={query}
-          onChange={handleInputChange}
-          className={styles.searchInput}
-          placeholder="Search by Moa..."
-        />
-        <button className={styles.browseButton}>Browse </button>
-      </div>
-      {suggestions.length > 0 && (
-        <ul className={styles.suggestionsList}>
-          {suggestions.map((suggestion, index) => (
-            <li
-              key={index}
-              className={styles.suggestionItem}
-              onClick={() => handleSuggestionClick(suggestion)}
-            >
-              {suggestion}
-            </li>
-          ))}
-        </ul>
-      )}
+<div className="relative">
+  <div className={`${styles.searchContainer} bg-white dark:bg-gray-700 border-2 border-blue-600 rounded-lg p-1.5 relative`}>
+    <input
+      type="text"
+      value={query}
+      onChange={handleInputChange}
+      className={`${styles.searchInput} bg-white dark:bg-gray-700 dark:text-gray-400 border-none outline-none flex-1 p-2.5 text-lg rounded-lg mr-2.5 placeholder-gray-400`}
+      placeholder="Search by Moa..."
+    />
+    <button className={`${styles.browseButton} bg-blue-500 text-white border-none py-2 px-5 rounded-lg cursor-pointer hover:bg-blue-700`}>
+      Browse
+    </button>
+  </div>
+  {suggestions.length > 0 && (
+    <ul className={`${styles.suggestionsList} bg-white dark:bg-gray-700 border border-gray-300 mt-1.5 rounded-lg max-h-48 overflow-y-auto z-50`}>
+      {suggestions.map((suggestion, index) => (
+        <li
+          key={index}
+          className={`${styles.suggestionItem} p-2 cursor-pointer hover:bg-gray-800 dark:hover:bg-black`}
+          onClick={() => handleSuggestionClick(suggestion)}
+        >
+          {suggestion}
+        </li>
+      ))}
+    </ul>
+  )}
+  {noMatch && (
+    <div className='text-destructive dark:text-red-500 text-lg text-center mt-2'>
+      Not found. Try something else.
     </div>
+  )}
+</div>
+
   );
 };
 

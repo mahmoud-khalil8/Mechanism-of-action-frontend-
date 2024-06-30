@@ -50,7 +50,7 @@ explore MoA's pivotal role in drug development and therapy, shaping pharmaceutic
               alt="image"
             ></Image>
           </div> */}
-          <h2 className={styles.heading}>Intro / Business Problem</h2>
+          <h2 className={styles.heading}>Intro </h2>
           <p className={styles.paragraph}>
             In the past, scientists derived drugs from natural products or were
             inspired by traditional remedies. Very common drugs, such as

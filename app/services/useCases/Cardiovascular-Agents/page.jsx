@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             Antihypertensives: Dilate blood vessels, reduce blood volume, or decrease cardiac output to lower blood pressure.
 
@@ -37,17 +37,17 @@ Anticoagulants: Inhibit the clotting cascade or prevent the formation of blood c
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 Hypertension, coronary artery disease, heart failure.
 
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         
 
 Examples: Amlodipine, metoprolol, lisinopril, warfarin.
@@ -57,88 +57,60 @@ Examples: Amlodipine, metoprolol, lisinopril, warfarin.
   </div>
 
 <div className="bg-gray-100 p-6 rounded-lg">
-  {/* <h3 className="text-xl font-semibold mb-4 text-gray-600">Mechanisms of Action</h3> */}
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+  {/* <h3 className="text-xl font-semibold mb-4 ">Mechanisms of Action</h3> */}
+  <ol className="list-decimal list-inside text-lg">
     <li className="mb-2">
-      <span className="font-semibold">
-        Adenosine Receptor Agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          A drug that binds to and activates adenosine receptors, often used in the treatment of cardiac arrhythmias and certain types of pain.
-        </li>
+      <span className="font-semibold">1. &nbsp;Adenosine Receptor Agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>A drug that binds to and activates adenosine receptors, often used in the treatment of cardiac arrhythmias and certain types of pain.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Adrenergic Receptor Agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          A substance that stimulates the adrenergic receptors, mimicking the effects of adrenaline and noradrenaline, commonly used in asthma, cardiac arrest, and anaphylaxis.
-        </li>
+      <span className="font-semibold">2. &nbsp;Adrenergic Receptor Agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>A substance that stimulates the adrenergic receptors, mimicking the effects of adrenaline and noradrenaline, commonly used in asthma, cardiac arrest, and anaphylaxis.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Angiotensin Receptor Antagonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Drugs that block the effects of angiotensin II, helping to lower blood pressure and treat heart failure.
-        </li>
+      <span className="font-semibold">3. &nbsp;Angiotensin Receptor Antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>Drugs that block the effects of angiotensin II, helping to lower blood pressure and treat heart failure.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Calcium Channel Blocker
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Medications that prevent calcium from entering cells of the heart and blood vessel walls, leading to lower blood pressure and reduced heart workload.
-        </li>
+      <span className="font-semibold">4. &nbsp;Calcium Channel Blocker</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>Medications that prevent calcium from entering cells of the heart and blood vessel walls, leading to lower blood pressure and reduced heart workload.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Cholesterol Inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          A type of drug that reduces the amount of cholesterol produced by the liver, often used to prevent cardiovascular diseases.
-        </li>
+      <span className="font-semibold">5. &nbsp;Cholesterol Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>A type of drug that reduces the amount of cholesterol produced by the liver, often used to prevent cardiovascular diseases.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Mineralocorticoid Receptor Antagonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Drugs that block the action of aldosterone on its receptors, used to treat heart failure, high blood pressure, and conditions of excess aldosterone.
-        </li>
+      <span className="font-semibold">6. &nbsp;Mineralocorticoid Receptor Antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>Drugs that block the action of aldosterone on its receptors, used to treat heart failure, high blood pressure, and conditions of excess aldosterone.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        Nitric Oxide Donor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Agents that release nitric oxide, which relaxes smooth muscle in blood vessels, leading to vasodilation and increased blood flow.
-        </li>
+      <span className="font-semibold">7. &nbsp;Nitric Oxide Donor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
+        <li>Agents that release nitric oxide, which relaxes smooth muscle in blood vessels, leading to vasodilation and increased blood flow.</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 Hypertension, coronary artery disease, heart failure.
 
@@ -146,8 +118,8 @@ Hypertension, coronary artery disease, heart failure.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           Examples: Amlodipine, metoprolol, lisinopril, warfarin.
                         </p>
                         </div>
@@ -212,7 +184,7 @@ Hypertension, coronary artery disease, heart failure.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
           Cardiovascular Agents diseases
 
 
@@ -319,24 +291,24 @@ Hypertension, coronary artery disease, heart failure.
         </li>
       </ol>
     </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 • Aortic dissection: This is a life-threatening condition where there is a tear in the inner layer of the aorta, the large blood vessel branching off the heart. Blood surges through the tear, causing the layers of the aorta to separate (dissect). Aortic dissection requires immediate medical attention, and treatment often involves surgery to repair the damaged aorta. However, the condition can be challenging to diagnose promptly, and delays in treatment can significantly impact patient outcomes.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Pulmonary embolism (PE): PE occurs when a blood clot (usually from the legs) travels to the lungs, obstructing blood flow. It can lead to severe respiratory compromise and even death if not promptly treated. While anticoagulant therapy is the mainstay of treatment for PE, the condition can be challenging to diagnose, especially in patients with nonspecific symptoms. Additionally, in some cases, thrombolytic therapy or surgical intervention may be necessary, but these treatments carry risks of bleeding complications.
 
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 Hypertension affects millions of people worldwide and is a significant risk factor for cardiovascular disease, stroke, and kidney disease. It often goes undiagnosed and untreated, leading to serious complications if left unchecked.
 
 
@@ -345,14 +317,12 @@ Hypertension affects millions of people worldwide and is a significant risk fact
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
+      <section >
+        <p className="text-xl  mb-4">
 
-examples of where finding effective treatments or cures presents significant challenges:
-
+A disease where finding effective treatments or cures presents significant challenges.
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 
 Pulmonary arterial hypertension (PAH): PAH is a progressive condition characterized by elevated blood pressure in the pulmonary arteries, leading to symptoms such as shortness of breath, fatigue, and chest pain. While there are several classes of medications available to manage PAH, including endothelin receptor antagonists, phosphodiesterase-5 inhibitors, and prostacyclin analogs, the disease remains incurable. Despite advancements in treatment, PAH often progresses over time, and managing symptoms and slowing disease progression can be challenging. Additionally, PAH can be associated with other underlying conditions, further complicating treatment approaches.
 

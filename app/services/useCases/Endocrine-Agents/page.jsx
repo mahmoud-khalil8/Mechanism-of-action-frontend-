@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             Insulin: Lowers blood glucose levels by facilitating the uptake of glucose into cells and inhibiting glucose production in the liver.
 
@@ -37,17 +37,17 @@ Corticosteroids: Mimic the actions of cortisol, regulating immune responses, met
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 
 Diabetes mellitus, thyroid disorders, polycystic ovary syndrome.
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         
 Examples: Metformin, levothyroxine, insulin, tamoxifen.
 
@@ -56,179 +56,115 @@ Examples: Metformin, levothyroxine, insulin, tamoxifen.
     </div>
   </div>
 
- <div className="bg-gray-100 p-6 rounded-lg">
-  {/* <h3 className="text-xl font-semibold mb-4 text-gray-600">Mechanisms of Action</h3> */}
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+<div className="bg-gray-100 p-6 rounded-lg">
+  {/* <h3 className="text-xl font-semibold mb-4 ">Mechanisms of Action</h3> */}
+  <ol className="list-decimal list-inside text-lg ">
     <li className="mb-2">
-      <span className="font-semibold">
-        11-beta-hsd1_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits the enzyme 11-beta-hydroxysteroid dehydrogenase type 1, reducing cortisol production.
-        </li>
+      <span className="font-semibold">1. &nbsp;11-beta-hsd1_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits the enzyme 11-beta-hydroxysteroid dehydrogenase type 1, reducing cortisol production.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        akt_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits the protein kinase B (Akt), interfering with cell survival and proliferation signals.
-        </li>
+      <span className="font-semibold">2. &nbsp;akt_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits the protein kinase B (Akt), interfering with cell survival and proliferation signals.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        aldehyde_dehydrogenase_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits aldehyde dehydrogenase, affecting alcohol metabolism and cellular detoxification.
-        </li>
+      <span className="font-semibold">3. &nbsp;aldehyde_dehydrogenase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits aldehyde dehydrogenase, affecting alcohol metabolism and cellular detoxification.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        aromatase_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits the enzyme aromatase, reducing the conversion of androgens to estrogens.
-        </li>
+      <span className="font-semibold">4. &nbsp;aromatase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits the enzyme aromatase, reducing the conversion of androgens to estrogens.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        cortisol_synthesis_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits enzymes involved in cortisol synthesis, lowering cortisol levels.
-        </li>
+      <span className="font-semibold">5. &nbsp;cortisol_synthesis_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits enzymes involved in cortisol synthesis, lowering cortisol levels.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        estrogen_receptor_agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to and activates estrogen receptors, mimicking the effects of estrogen.
-        </li>
+      <span className="font-semibold">6. &nbsp;estrogen_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to and activates estrogen receptors, mimicking the effects of estrogen.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        estrogen_receptor_antagonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to estrogen receptors but blocks their activation, preventing estrogen effects.
-        </li>
+      <span className="font-semibold">7. &nbsp;estrogen_receptor_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to estrogen receptors but blocks their activation, preventing estrogen effects.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        faah_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits fatty acid amide hydrolase, increasing levels of endocannabinoids.
-        </li>
+      <span className="font-semibold">8. &nbsp;faah_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits fatty acid amide hydrolase, increasing levels of endocannabinoids.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        farnesyltransferase_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits farnesyltransferase, preventing the modification of proteins required for cancer cell growth.
-        </li>
+      <span className="font-semibold">9. &nbsp;farnesyltransferase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits farnesyltransferase, preventing the modification of proteins required for cancer cell growth.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        glucocorticoid_receptor_agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to and activates glucocorticoid receptors, mimicking the effects of cortisol.
-        </li>
+      <span className="font-semibold">10. &nbsp;glucocorticoid_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to and activates glucocorticoid receptors, mimicking the effects of cortisol.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        hmgcr_inhibitor
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Inhibits HMG-CoA reductase, lowering cholesterol synthesis.
-        </li>
+      <span className="font-semibold">11. &nbsp;hmgcr_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Inhibits HMG-CoA reductase, lowering cholesterol synthesis.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        insulin_secretagogue
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Stimulates the pancreas to secrete insulin, aiding in blood sugar control.
-        </li>
+      <span className="font-semibold">12. &nbsp;insulin_secretagogue</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Stimulates the pancreas to secrete insulin, aiding in blood sugar control.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        insulin_sensitizer
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Enhances the sensitivity of cells to insulin, improving glucose uptake.
-        </li>
+      <span className="font-semibold">13. &nbsp;insulin_sensitizer</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Enhances the sensitivity of cells to insulin, improving glucose uptake.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        progesterone_receptor_agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to and activates progesterone receptors, mimicking the effects of progesterone.
-        </li>
+      <span className="font-semibold">14. &nbsp;progesterone_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to and activates progesterone receptors, mimicking the effects of progesterone.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        progesterone_receptor_antagonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to progesterone receptors but blocks their activation, preventing progesterone effects.
-        </li>
+      <span className="font-semibold">15. &nbsp;progesterone_receptor_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to progesterone receptors but blocks their activation, preventing progesterone effects.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">
-        vitamin_d_receptor_agonist
-      </span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
-        <li>
-          Binds to and activates vitamin D receptors, mimicking the effects of vitamin D.
-        </li>
+      <span className="font-semibold">16. &nbsp;vitamin_d_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
+        <li>Binds to and activates vitamin D receptors, mimicking the effects of vitamin D.</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 
 
@@ -236,8 +172,8 @@ Diabetes mellitus, thyroid disorders, polycystic ovary syndrome.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           
 Examples: Metformin, levothyroxine, insulin, tamoxifen.
 
@@ -304,7 +240,7 @@ Examples: Metformin, levothyroxine, insulin, tamoxifen.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
 Endocrine Agents diseases
 
 
@@ -374,52 +310,52 @@ Bone disorder characterized by decreased bone density and increased risk of frac
         </li>
              </ol>
     </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 • Diabetes is associated with a wide range of complications that can significantly impact life expectancy and quality of life if not adequately managed.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Cardiovascular disease: Diabetes significantly increases the risk of heart disease, heart attack, stroke, and peripheral artery disease, which are leading causes of death among people with diabetes.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Neuropathy: Nerve damage caused by diabetes can lead to pain, numbness, and loss of sensation, particularly in the feet and hands. It can also lead to diabetic foot ulcers, infections, and, in severe cases, limb amputation.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Nephropathy: Diabetes is a leading cause of kidney disease and kidney failure, requiring dialysis or kidney transplantation for survival.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Retinopathy: Diabetes can damage the blood vessels in the retina, leading to diabetic retinopathy, which is a leading cause of blindness in adults.
 
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 • Diabetes Mellitus: is one of the most widespread endocrine disorders. It affects millions of people globally and has reached epidemic proportions in many parts of the world. Within diabetes mellitus, type 2 diabetes is particularly prevalent.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 • Global Prevalence: Diabetes affects an estimated 463 million adults worldwide, and this number is expected to rise to 700 million by 2045, according to the International Diabetes Federation (IDF). Type 2 diabetes accounts for the majority of diabetes cases globally.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 • Risk Factors: Type 2 diabetes is closely linked to lifestyle factors such as obesity, physical inactivity, and unhealthy diets. These risk factors have become increasingly prevalent due to changes in dietary habits, sedentary lifestyles, urbanization, and aging populations.
 
 
@@ -429,13 +365,11 @@ Bone disorder characterized by decreased bone density and increased risk of frac
       </section>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
+        <p className="text-xl  mb-4">
 
-examples of where finding effective treatments or cures presents significant challenges:
-
+A disease where finding effective treatments or cures presents significant challenges.
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 
 Polycystic Ovary Syndrome (PCOS): PCOS is a common endocrine disorder characterized by hormonal imbalance, irregular menstrual cycles, ovarian cysts, and metabolic disturbances. Management of PCOS involves addressing symptoms such as infertility, hirsutism, acne, and metabolic complications such as insulin resistance and obesity. Developing targeted therapies that address the underlying hormonal and metabolic dysregulation in PCOS while minimizing side effects presents challenges.
 

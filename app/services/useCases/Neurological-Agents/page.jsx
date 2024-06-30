@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             Anticonvulsants: Modulate ion channels or neurotransmitter activity to reduce neuronal excitability and prevent seizures.
 
@@ -37,17 +37,17 @@ Antipsychotics: Block dopamine receptors in the brain, reducing psychotic sympto
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 Alzheimer's disease, Parkinson's disease, epilepsy, depression.
 
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         
 Examples: Donepezil, levodopa, gabapentin, sertraline.
 
@@ -57,89 +57,89 @@ Examples: Donepezil, levodopa, gabapentin, sertraline.
   </div>
 
 <div className="bg-gray-100 p-6 rounded-lg">
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+  <ol className="list-decimal list-inside text-lg ">
     <li className="mb-2">
-      <span className="font-semibold">acetylcholine_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">1. &nbsp;acetylcholine_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Stimulates acetylcholine receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">acetylcholinesterase_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">2. &nbsp;acetylcholinesterase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits the enzyme acetylcholinesterase</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">cannabinoid_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">3. &nbsp;cannabinoid_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates cannabinoid receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">dopamine_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">4. &nbsp;dopamine_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Stimulates dopamine receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">dopamine_receptor_antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">5. &nbsp;dopamine_receptor_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks dopamine receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">gamma_secretase_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">6. &nbsp;gamma_secretase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits gamma secretase enzyme</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">gaba_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">7. &nbsp;gaba_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates GABA receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">gaba_receptor_antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">8. &nbsp;gaba_receptor_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks GABA receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">histamine_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">9. &nbsp;histamine_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates histamine receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">serotonin_receptor_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">10. &nbsp;serotonin_receptor_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Stimulates serotonin receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">serotonin_receptor_antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">11. &nbsp;serotonin_receptor_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks serotonin receptors</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">serotonin_reuptake_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">12. &nbsp;serotonin_reuptake_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits the reuptake of serotonin</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 
 Alzheimer's disease, Parkinson's disease, epilepsy, depression.
@@ -147,8 +147,8 @@ Alzheimer's disease, Parkinson's disease, epilepsy, depression.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           Examples: Donepezil, levodopa, gabapentin, sertraline.
 
 
@@ -215,12 +215,12 @@ Alzheimer's disease, Parkinson's disease, epilepsy, depression.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
             Neurological Agents diseases
 
 
         </h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             Epilepsy: A neurological disorder characterized by recurrent seizures, resulting from abnormal electrical activity in the brain, often treated with anticonvulsant medications.
 
@@ -238,18 +238,18 @@ Alzheimer's disease: A progressive neurodegenerative disorder characterized by m
 
           </li>
         </ul>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10" >
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 Glioblastoma multiforme (GBM): This aggressive form of brain cancer is often considered one of the most deadly cancers. GBM tumors are highly infiltrative, making complete surgical removal challenging, and they tend to recur even after aggressive treatment with surgery, radiation therapy, and chemotherapy. The prognosis for GBM is generally poor, with a median survival of around 12-18 months after diagnosis.
 
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 
 Epilepsy: Epilepsy is a neurological disorder characterized by recurrent seizures and affects people of all ages worldwide. It is estimated that around 50 million people globally have epilepsy, making it one of the most common neurological conditions.
 
@@ -258,13 +258,12 @@ Epilepsy: Epilepsy is a neurological disorder characterized by recurrent seizure
         </div>
       </section>
 
-      <section className="mb-8">
-        <p className="text-lg text-gray-700 mb-4">
-examples of where finding effective treatments or cures presents significant challenges:
-
+      <section >
+        <p className="text-xl  mb-4">
+A disease where finding effective treatments or cures presents significant challenges.
 
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 Amyotrophic lateral sclerosis (ALS): ALS, also known as Lou Gehrig's disease, is a progressive neurodegenerative disorder that affects nerve cells in the brain and spinal cord, leading to muscle weakness, paralysis, and ultimately respiratory failure. Currently, there is no cure for ALS, and available treatments such as riluzole and edaravone provide only modest benefits in slowing disease progression. The complex underlying mechanisms of ALS, coupled with its heterogeneity and rapid progression, pose significant challenges in developing effective therapies. Additionally, the lack of reliable biomarkers for ALS diagnosis and monitoring further complicates clinical trials and drug development efforts.
 
 

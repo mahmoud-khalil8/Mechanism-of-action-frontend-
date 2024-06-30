@@ -62,7 +62,7 @@ import {
               <ListItem href="../../services/research" title="References">
                 Curated studies validating MoA prediction technology.
               </ListItem>
-              <ListItem href="../../services/useCases" title="Use cases">
+              <ListItem href="../../services/useCases" title="Moa classifications">
                  Applied in diverse research for drug discovery.
               </ListItem>
               <ListItem href="../../services/diabetes-case-study" title="diabetes case study">

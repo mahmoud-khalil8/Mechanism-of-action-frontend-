@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             
 Chemotherapy: Interfere with the cell cycle or DNA synthesis, leading to cell death or inhibition of cancer cell proliferation.
@@ -38,17 +38,17 @@ Chemotherapy: Interfere with the cell cycle or DNA synthesis, leading to cell de
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 
 Various cancers (breast cancer, lung cancer, leukemia, etc.).
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         
 Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
 
@@ -57,91 +57,91 @@ Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
     </div>
   </div>
 <div className="bg-gray-100 p-6 rounded-lg">
-  {/* <h3 className="text-xl font-semibold mb-4 text-gray-600">Mechanisms of Action</h3> */}
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+  {/* <h3 className="text-xl font-semibold mb-4 ">Mechanisms of Action</h3> */}
+  <ol className="list-decimal list-inside text-lg">
     <li className="mb-2">
-      <span className="font-semibold">ALK Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">1. &nbsp;ALK Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Targets the anaplastic lymphoma kinase (ALK) gene to prevent cancer cell growth.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">Aurora Kinase Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">2. &nbsp;Aurora Kinase Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits aurora kinases, enzymes involved in cell division, to halt cancer cell proliferation.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">BCR-ABL Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">3. &nbsp;BCR-ABL Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Blocks the BCR-ABL protein that promotes cancer cell growth in chronic myeloid leukemia (CML).</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">EGFR Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">4. &nbsp;EGFR Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits the epidermal growth factor receptor (EGFR) to prevent cancer cell growth and survival.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">FLT3 Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">5. &nbsp;FLT3 Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Targets the FMS-like tyrosine kinase 3 (FLT3) to inhibit the growth of certain types of leukemia cells.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">HCV Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">6. &nbsp;HCV Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits the hepatitis C virus (HCV) replication by targeting viral enzymes.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">mTOR Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">7. &nbsp;mTOR Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits the mammalian target of rapamycin (mTOR) pathway to prevent cancer cell growth and proliferation.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">Proteasome Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">8. &nbsp;Proteasome Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits the proteasome, an enzyme complex that degrades proteins, to induce cancer cell death.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">RAF Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">9. &nbsp;RAF Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Targets the RAF kinases to block the MAPK/ERK signaling pathway, preventing cancer cell proliferation.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">RAS GTPase Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">10. &nbsp;RAS GTPase Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits the RAS GTPase, a protein involved in cell signaling, to block cancer cell growth.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">Topoisomerase Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">11. &nbsp;Topoisomerase Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits topoisomerase enzymes that help in DNA replication, causing DNA damage and cancer cell death.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">Tyrosine Kinase Inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">12. &nbsp;Tyrosine Kinase Inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
         <li>Inhibits tyrosine kinases, enzymes involved in the signaling pathways that regulate cell division and survival, to treat cancer.</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 Various cancers (breast cancer, lung cancer, leukemia, etc.).
 
@@ -149,8 +149,8 @@ Various cancers (breast cancer, lung cancer, leukemia, etc.).
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           
 Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
 
@@ -217,12 +217,12 @@ Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
           Antineoplastic/Anticancer diseases 
 
 
         </h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             Breast cancer: A malignant tumor that develops in the breast tissue, which may include invasive ductal carcinoma, invasive lobular carcinoma, or other subtypes.
 
@@ -240,18 +240,18 @@ Lymphoma: Cancer of the lymphatic system, including Hodgkin lymphoma and various
 
           </li>
         </ul>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 Pancreatic cancer: Pancreatic cancer has one of the lowest survival rates among cancers, often due to late diagnosis and aggressive tumor behavior. It tends to spread rapidly and is frequently diagnosed at an advanced stage, making it difficult to treat effectively.
 
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 
 Lung cancer: Lung cancer is one of the most prevalent cancers globally and a leading cause of cancer-related deaths. It is closely associated with tobacco smoking but can also occur in non-smokers due to other factors such as exposure to secondhand smoke, air pollution, or occupational hazards.
 
@@ -260,14 +260,12 @@ Lung cancer: Lung cancer is one of the most prevalent cancers globally and a lea
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
-examples of where finding effective treatments or cures presents significant challenges:
-
+      <section >
+        <p className="text-xl  mb-4">
+A disease where finding effective treatments or cures presents significant challenges.
 
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 Glioblastoma multiforme (GBM): GBM is an aggressive form of brain cancer with a poor prognosis and limited treatment options. Despite extensive research efforts, including surgery, radiation therapy, and chemotherapy with drugs like temozolomide, the median survival for patients with GBM remains relatively short. The highly invasive nature of GBM tumors, along with their ability to evade treatment and recur, presents significant challenges in developing effective therapies. Additionally, the blood-brain barrier limits the delivery of drugs to the brain, further complicating treatment strategies for GBM.
 
 

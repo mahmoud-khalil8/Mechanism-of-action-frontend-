@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             
 PPIs and H2 blockers: Inhibit gastric acid secretion by blocking proton pumps or histamine receptors in the stomach.
@@ -36,17 +36,17 @@ PPIs and H2 blockers: Inhibit gastric acid secretion by blocking proton pumps or
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 
 Gastroesophageal reflux disease (GERD), peptic ulcers, constipation.
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         Examples: Omeprazole, ranitidine, loperamide, ondansetron.
 
 
@@ -56,96 +56,96 @@ Gastroesophageal reflux disease (GERD), peptic ulcers, constipation.
   </div>
 
 <div className="bg-gray-100 p-6 rounded-lg">
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+  <ol className="list-decimal list-inside text-lg ">
     <li className="mb-2">
-      <span className="font-semibold">acetylcholine receptor agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">1. &nbsp;acetylcholine receptor agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Stimulates acetylcholine receptors to mimic the action of acetylcholine.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">adrenergic receptor agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">2. &nbsp;adrenergic receptor agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates adrenergic receptors to mimic the action of adrenaline and noradrenaline.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">calcium channel blocker</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">3. &nbsp;calcium channel blocker</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits the influx of calcium ions into cells, used to treat hypertension and arrhythmias.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">chloride channel blocker</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">4. &nbsp;chloride channel blocker</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks chloride channels to alter cellular electrical activity, used in cystic fibrosis and epilepsy.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">h2 receptor antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">5. &nbsp;h2 receptor antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks H2 receptors to reduce stomach acid production, used for ulcers and GERD.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">histamine receptor antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">6. &nbsp;histamine receptor antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks histamine receptors to reduce allergic reactions and symptoms.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">leukotriene receptor antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">7. &nbsp;leukotriene receptor antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks leukotriene receptors to reduce inflammation in asthma and allergic rhinitis.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">muscarinic receptor antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">8. &nbsp;muscarinic receptor antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits muscarinic receptors to reduce parasympathetic nervous system activity.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">opioid receptor agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">9. &nbsp;opioid receptor agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates opioid receptors to produce pain relief and euphoria.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">opioid receptor antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">10. &nbsp;opioid receptor antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks opioid receptors to counteract the effects of opioids.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">potassium channel activator</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">11. &nbsp;potassium channel activator</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Opens potassium channels to relax smooth muscle and cause vasodilation.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">potassium channel antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">12. &nbsp;potassium channel antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks potassium channels to alter electrical signaling in cells.</li>
       </ul>
     </li>
     <li className="mb-2">
-      <span className="font-semibold">serotonin receptor agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">13. &nbsp;serotonin receptor agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Activates serotonin receptors to modulate mood, appetite, and other functions.</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 
 Gastroesophageal reflux disease (GERD), peptic ulcers, constipation.
@@ -153,8 +153,8 @@ Gastroesophageal reflux disease (GERD), peptic ulcers, constipation.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           
 Examples: Omeprazole, ranitidine, loperamide, ondansetron.
 
@@ -221,7 +221,7 @@ Examples: Omeprazole, ranitidine, loperamide, ondansetron.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
 Gastrointestinal Agents diseases
 
 
@@ -307,29 +307,29 @@ GERD is a chronic condition where stomach acid flows back into the esophagus, le
        
       </ol>
     </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 • Gastroesophageal Reflux Disease (GERD) and Peptic Ulcer Disease: While these conditions may not be inherently life-threatening, complications such as esophageal strictures, Barrett's esophagus, and gastrointestinal bleeding can occur if left untreated or poorly managed. Severe cases may lead to significant morbidity and require invasive interventions such as surgery.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Inflammatory Bowel Diseases (IBD): Crohn's disease and ulcerative colitis are chronic inflammatory conditions associated with various complications such as strictures, fistulas, and colorectal cancer. Severe cases may require immunosuppressive therapies or surgery to manage symptoms and prevent long-term complications.
 
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 • Gastroesophageal Reflux Disease (GERD) and Peptic Ulcer Disease: GERD and peptic ulcers are highly prevalent worldwide, affecting millions of individuals. Lifestyle factors such as diet, obesity, and smoking contribute to their widespread occurrence. Additionally, the widespread use of medications such as NSAIDs increases the risk of peptic ulcer formation.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 • Irritable Bowel Syndrome (IBS): IBS is one of the most common gastrointestinal disorders, affecting up to 10-15% of the global population. It is more prevalent in women and often associated with abdominal pain, bloating, and altered bowel habits. While IBS does not lead to serious complications, it can significantly impact quality of life and healthcare utilization.
 
 
@@ -338,19 +338,17 @@ GERD is a chronic condition where stomach acid flows back into the esophagus, le
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
+      <section >
+        <p className="text-xl  mb-4">
 
-examples of where finding effective treatments or cures presents significant challenges:
-
+A disease where finding effective treatments or cures presents significant challenges.
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 
 • Gastrointestinal Motility Disorders: Disorders affecting gastrointestinal motility, such as gastroparesis and chronic intestinal pseudo-obstruction, involve abnormalities in the movement of food through the digestive tract. These conditions can lead to symptoms such as nausea, vomiting, abdominal pain, and bloating. Developing treatments that can effectively regulate gastrointestinal motility and improve symptoms without causing adverse effects such as diarrhea or constipation is challenging.
 
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 
  • Pancreatitis: Pancreatitis is inflammation of the pancreas that can be acute or chronic and may result from various causes, including gallstones, alcohol abuse, and autoimmune conditions. Treatment focuses on managing symptoms, preventing complications such as pancreatic necrosis or pseudocysts, and addressing underlying causes. However, effective therapies to prevent disease progression and promote pancreatic healing are limited.
 

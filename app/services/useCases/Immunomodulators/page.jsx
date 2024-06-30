@@ -15,8 +15,8 @@ function Page() {
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4 ">Introduction</h2>
+        <ul className="list-disc list-inside text-lg  mb-4">
           <li>
             DMARDs: Suppress the immune system's activity to reduce inflammation and slow the progression of autoimmune diseases.
 
@@ -36,17 +36,17 @@ Biologic agents: Target specific molecules or cells involved in the immune respo
              </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4 ">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
 Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
 
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg ">
         
 Examples: Methotrexate, infliximab, adalimumab, rituximab.
 
@@ -56,120 +56,120 @@ Examples: Methotrexate, infliximab, adalimumab, rituximab.
   </div>
 
 <div className="bg-gray-100 p-6 rounded-lg">
-  <ul className="list-decimal list-inside text-lg text-gray-700">
+  <ol className="list-decimal list-inside text-lg ">
     <li className="mb-4">
-      <span className="font-semibold">akt_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">1. &nbsp;akt_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits Akt signaling pathway involved in cell survival and proliferation.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">bcl_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">2. &nbsp;bcl_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Targets Bcl family proteins to induce apoptosis in cancer cells.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">btk_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">3. &nbsp;btk_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits Bruton's tyrosine kinase, important in B cell signaling and autoimmune diseases.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">calcineurin_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">4. &nbsp;calcineurin_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks calcineurin, used to suppress immune response post-transplant.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">histone_lysine_demethylase_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">5. &nbsp;histone_lysine_demethylase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits enzymes that demethylate histones, influencing gene expression.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">histone_lysine_methyltransferase_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">6. &nbsp;histone_lysine_methyltransferase_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits enzymes that methylate histones, affecting chromatin structure and gene regulation.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">hsp_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">7. &nbsp;hsp_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits heat shock proteins, which assist in protein folding and cellular stress response.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">igf-1_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">8. &nbsp;igf-1_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks insulin-like growth factor 1 (IGF-1), involved in cell growth and survival.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">ikk_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">9. &nbsp;ikk_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits IκB kinase, involved in NF-κB pathway and inflammation.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">mtor_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">10. &nbsp;mtor_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Targets mammalian target of rapamycin (mTOR), regulating cell growth and metabolism.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">nfkb_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">11. &nbsp;nfkb_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits nuclear factor kappa B (NF-κB), a key regulator of inflammation and immune response.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">p38_mapk_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">12. &nbsp;p38_mapk_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits p38 mitogen-activated protein kinase (MAPK), involved in inflammation and stress response.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">pi3k_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">13. &nbsp;pi3k_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Inhibits phosphoinositide 3-kinase (PI3K), important in cell growth, survival, and metabolism.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">tgf-beta_receptor_inhibitor</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">14. &nbsp;tgf-beta_receptor_inhibitor</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks TGF-beta receptor signaling, involved in cell growth, differentiation, and immune suppression.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">tlr_agonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">15. &nbsp;tlr_agonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Acts as an agonist to Toll-like receptors (TLRs), triggering immune responses.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">tlr_antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">16. &nbsp;tlr_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Blocks Toll-like receptors (TLRs), modulating immune responses.</li>
       </ul>
     </li>
     <li className="mb-4">
-      <span className="font-semibold">Tnfr_antagonist</span>
-      <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+      <span className="font-semibold">17. &nbsp;Tnfr_antagonist</span>
+      <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground ">
         <li>Antagonizes tumor necrosis factor receptors (TNFRs), involved in inflammation and apoptosis.</li>
       </ul>
     </li>
-  </ul>
+  </ol>
 </div>
 
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg ">
 
 Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
 
@@ -177,8 +177,8 @@ Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg "> 
                           Examples: Methotrexate, infliximab, adalimumab, rituximab.
 
 
@@ -246,7 +246,7 @@ Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
 
      
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4 ">
    Immunomodulators diseases
 
 
@@ -287,14 +287,14 @@ Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
        
              </ol>
     </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Dangerous</h3>
+            <p className="text-lg ">
 • Rheumatoid Arthritis (RA) and Inflammatory Bowel Diseases (IBD) such as Crohn's disease and ulcerative colitis are often considered potentially dangerous due to their chronic nature, progressive tissue damage, and risk of serious complications if left untreated. In RA, untreated joint inflammation can lead to irreversible joint damage, deformity, and disability. In IBD, untreated inflammation can cause bowel strictures, fistulas, and an increased risk of colorectal cancer.
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 
 • Multiple Sclerosis (MS) can also be considered dangerous due to its potential for neurological disability, including mobility impairment, cognitive dysfunction, and loss of vision, particularly in progressive forms of the disease.
 
@@ -302,18 +302,18 @@ Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
             </p>
            
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2 ">Most Widespread</h3>
+            <p className="text-lg ">
 • Rheumatoid Arthritis (RA) affects approximately 0.5-1% of the global population, making it one of the most common autoimmune disorders worldwide.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 • Inflammatory Bowel Diseases (IBD), including Crohn's disease and ulcerative colitis, collectively affect millions of people worldwide, with increasing incidence reported in many regions.
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg ">
 • Multiple Sclerosis (MS) is estimated to affect around 2.8 million people globally, with higher prevalence in regions further from the equator.
 
             </p>
@@ -321,14 +321,12 @@ Rheumatoid arthritis, multiple sclerosis, inflammatory bowel diseases.
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
+      <section >
+        <p className="text-xl  mb-4">
 
-examples of where finding effective treatments or cures presents significant challenges:
-
+A disease where finding effective treatments or cures presents significant challenges.
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg  pb-10">
 
 • Transplant Rejection: Transplant rejection occurs when the immune system recognizes transplanted tissues or organs as foreign and attacks them. Immunosuppressive medications, including immunomodulators, are used to prevent rejection and allow for successful organ transplantation. However, achieving a balance between preventing rejection and minimizing the risk of infection or malignancy remains a challenge.
 

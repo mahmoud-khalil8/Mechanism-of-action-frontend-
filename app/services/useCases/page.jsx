@@ -26,13 +26,13 @@ export default function Component() {
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
         <Highlight className="text-black dark:text-white">
-           Case Study
+           Moa classifications
         </Highlight>
 <div className="text-lg pt-10">
-Applied in diverse research for drug discovery</div>
+Classified based on their therputic effect</div>
       </motion.h1>
     </HeroHighlight>
-      <div className="container grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:gap-8 md:px-6 lg:gap-10">
+      <div className="container grid grid-cols-1 gap-6 px-4 md:grid-cols-2 md:gap-8 md:px-6 lg:gap-10 mb-16">
           <div
             
             className={`${styles.card} group relative overflow-hidden rounded-lg border hover:shadow-xl transition-shadow duration-300`}

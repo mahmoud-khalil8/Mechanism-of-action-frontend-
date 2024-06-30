@@ -36,6 +36,7 @@ const ActionButtons = () => {
                   <Link href="../../Prediction">Get Started</Link>
                   <Link href="../../services/research">Researches</Link>
                   <Link href="../../services/useCases">Case Studies</Link>
+                  <Link href="../../services/diabetes-case-study" >Diabetes Case Study</Link>
                   
                   
                   

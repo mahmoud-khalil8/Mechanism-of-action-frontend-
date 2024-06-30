@@ -15,8 +15,8 @@ Respiratory Agents
       </header>
       
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Introduction</h2>
-        <ul className="list-disc list-inside text-lg text-gray-700 mb-4">
+        <h2 className="text-3xl font-semibold mb-4">Introduction</h2>
+        <ul className="list-disc list-inside text-lg mb-4">
           <li>
             
 Bronchodilators: Relax smooth muscles in the airways, widening the bronchi and improving airflow.
@@ -37,17 +37,17 @@ Antihistamines: Block histamine receptors, reducing allergic symptoms such as na
       </section>
 
       <section className="mb-8">
-  <h2 className="text-3xl font-semibold mb-4 text-gray-700">MOAs</h2>
+  <h2 className="text-3xl font-semibold mb-4">MOAs</h2>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg">
 
 Asthma, chronic obstructive pulmonary disease (COPD), cystic fibrosis.
 
       </p>
     </div>
-    <div className="border p-4 rounded-lg bg-gray-50">
-      <p className="text-lg text-gray-700">
+    <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+      <p className="text-lg">
         
 Examples: Albuterol, fluticasone, montelukast, theophylline.
 
@@ -57,60 +57,60 @@ Examples: Albuterol, fluticasone, montelukast, theophylline.
   </div>
 
 <div className="bg-gray-100 p-6 rounded-lg">
-    {/* <h3 className="text-xl font-semibold mb-4 text-gray-600">Mechanisms of Action</h3> */}
-    <ul className="list-decimal list-inside text-lg text-gray-700">
+    {/* <h3 className="text-xl font-semibold mb-4">Mechanisms of Action</h3> */}
+    <ol className="list-decimal list-inside text-lg">
         <li className="mb-2">
-            <span className="font-semibold">Adenosine Receptor Agonist</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">1. &nbsp;Adenosine Receptor Agonist</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Adenosine receptor agonists mimic the action of adenosine, a neurotransmitter that inhibits neurotransmission, leading to effects such as vasodilation, anti-inflammatory responses, and reduced heart rate. These agonists are used in conditions like supraventricular tachycardia.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Adrenergic Receptor Agonist</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">2. &nbsp;Adrenergic Receptor Agonist</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Adrenergic receptor agonists stimulate adrenergic receptors (alpha and beta receptors), which are involved in the fight-or-flight response. Activation leads to increased heart rate, bronchodilation, and vasoconstriction. They are commonly used in asthma, cardiac arrest, and anaphylaxis.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Antihistamine</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">3. &nbsp;Antihistamine</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Antihistamines block histamine H1 receptors, preventing the effects of histamine release during allergic reactions. This results in reduced symptoms such as itching, swelling, and mucus production. They are used to treat allergies, hives, and the common cold.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Leukotriene Inhibitor</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">4. &nbsp;Leukotriene Inhibitor</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Leukotriene inhibitors block the production of leukotrienes, inflammatory mediators that contribute to asthma and allergic rhinitis. By inhibiting the enzyme 5-lipoxygenase, these drugs reduce bronchoconstriction, mucus production, and inflammation.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Leukotriene Receptor Antagonist</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">5. &nbsp;Leukotriene Receptor Antagonist</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Leukotriene receptor antagonists block leukotriene receptors, thereby preventing the binding of leukotrienes. This results in decreased bronchoconstriction, inflammation, and mucus production. They are used in the management of asthma and allergic rhinitis.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Serotonin Receptor Agonist</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">6. &nbsp;Serotonin Receptor Agonist</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Serotonin receptor agonists bind to and activate serotonin receptors, mimicking the effects of serotonin. This can result in mood enhancement, reduced anxiety, and improved gastrointestinal motility. They are used to treat depression, anxiety, and migraines.</li>
             </ul>
         </li>
         <li className="mb-2">
-            <span className="font-semibold">Serotonin Receptor Antagonist</span>
-            <ul className="list-disc list-inside ml-6 mt-1 text-gray-600">
+            <span className="font-semibold">7. &nbsp;Serotonin Receptor Antagonist</span>
+            <ul className="list-disc list-inside ml-6 mt-1 text-muted-foreground">
                 <li>Serotonin receptor antagonists block serotonin receptors, preventing serotonin from exerting its effects. This can reduce nausea and vomiting, and is particularly useful in chemotherapy-induced nausea and migraine prevention.</li>
             </ul>
         </li>
-    </ul>
+    </ol>
 </div>
 </section>
 
 
       <div className="overflow-x-auto pb-10">
-                <h2 className="text-3xl font-semibold mb-4 text-gray-700">Drugs</h2>
+                <h2 className="text-3xl font-semibold mb-4">Drugs</h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700">
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg">
 
 
 Asthma, chronic obstructive pulmonary disease (COPD), cystic fibrosis.
@@ -118,8 +118,8 @@ Asthma, chronic obstructive pulmonary disease (COPD), cystic fibrosis.
 
                         </p>
                         </div>
-                        <div className="border p-4 rounded-lg bg-gray-50">
-                        <p className="text-lg text-gray-700"> 
+                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
+                        <p className="text-lg"> 
                           
 Examples: Albuterol, fluticasone, montelukast, theophylline.
 
@@ -186,7 +186,7 @@ Examples: Albuterol, fluticasone, montelukast, theophylline.
     </div>
 
       <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">
+        <h2 className="text-3xl font-semibold mb-4">
  Respiratory Agents diseases
 
 
@@ -272,28 +272,28 @@ Examples: Albuterol, fluticasone, montelukast, theophylline.
 
       </ol>
     </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Dangerous</h3>
-            <p className="text-lg text-gray-700">
+        <div className="grid md:grid-cols-2 gap-6 mt-10">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2">Most Dangerous</h3>
+            <p className="text-lg">
 • Pneumonia: While pneumonia may not be inherently dangerous for everyone, it can lead to serious complications, especially in vulnerable populations such as the elderly, young children, and individuals with weakened immune systems. Severe cases of pneumonia can result in respiratory failure, sepsis, and even death if not promptly treated. The danger lies in the potential for rapid deterioration and systemic complications associated with severe pneumonia.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg">
 
 • Pulmonary Hypertension: Pulmonary hypertension is a serious condition that can lead to progressive right heart failure and death if left untreated or poorly managed. It imposes significant strain on the heart and pulmonary circulation, resulting in symptoms such as dyspnea, fatigue, and chest pain. Without appropriate treatment, pulmonary hypertension can have a poor prognosis, particularly in advanced stages of the disease.
 
             </p>
           </div>
-          <div className="border p-4 bg-gray-50 rounded-lg">
-            <h3 className="text-xl font-bold mb-2 text-gray-600">Most Widespread</h3>
-            <p className="text-lg text-gray-700">
+          <div className="border p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+            <h3 className="text-xl font-bold mb-2">Most Widespread</h3>
+            <p className="text-lg">
 • Asthma: Asthma is one of the most common respiratory conditions worldwide, affecting people of all ages. It is estimated that over 300 million individuals globally have asthma. Asthma prevalence varies among different regions and populations, but it is generally considered widespread due to its chronic nature and potential for exacerbations.
 
 
             </p>
-            <p className="text-lg text-gray-700">
+            <p className="text-lg">
 •  Allergic Rhinitis: Allergic rhinitis, commonly known as hay fever, is a prevalent condition affecting millions of people worldwide. It is estimated that up to 30% of adults and 40% of children experience allergic rhinitis symptoms. Although allergic rhinitis is not life-threatening, it significantly impacts quality of life and productivity due to bothersome symptoms such as nasal congestion, sneezing, and itching. 
 
 
@@ -302,19 +302,17 @@ Examples: Albuterol, fluticasone, montelukast, theophylline.
         </div>
       </section>
 
-      <section className="mb-8">
-        <h2 className="text-3xl font-semibold mb-4 text-gray-700">Examples</h2>
-        <p className="text-lg text-gray-700 mb-4">
+      <section >
+        <p className="text-xl mb-4">
 
-examples of where finding effective treatments or cures presents significant challenges:
-
+A disease where finding effective treatments or cures presents significant challenges.
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg pb-10">
 
 • Cystic Fibrosis (CF): CF is a genetic disorder characterized by the production of thick, sticky mucus that clogs the airways and leads to recurrent lung infections, progressive lung damage, and respiratory failure. While advances in treatment have improved outcomes for individuals with CF, there is currently no cure for the disease. Developing therapies that address the underlying genetic defect, improve mucus clearance, and prevent lung damage remains a significant challenge.
 
         </p>
-        <p className="text-lg text-gray-700 pb-10">
+        <p className="text-lg pb-10">
 
  • Respiratory Syncytial Virus (RSV) Infection: RSV is a common respiratory virus that can cause severe respiratory illness, especially in infants, young children, older adults, and individuals with weakened immune systems. While supportive care and antiviral medications may help alleviate symptoms, there are currently no vaccines or specific antiviral therapies approved for RSV infection. Developing safe and effective vaccines or antiviral drugs for RSV presents a significant challenge due to the virus's ability to evade the immune system and the lack of suitable animal models for preclinical testing.
 
