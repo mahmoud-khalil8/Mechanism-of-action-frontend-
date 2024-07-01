@@ -51,7 +51,7 @@ explore MoA's pivotal role in drug development and therapy, shaping pharmaceutic
             ></Image>
           </div> */}
           <h2 className={styles.heading}>Intro </h2>
-          <p className={styles.paragraph}>
+          <p className={`${styles.paragraph} `}>
             In the past, scientists derived drugs from natural products or were
             inspired by traditional remedies. Very common drugs, such as
             paracetamol, known in the US as acetaminophen, were put into

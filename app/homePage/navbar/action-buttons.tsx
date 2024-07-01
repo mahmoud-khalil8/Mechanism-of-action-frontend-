@@ -33,14 +33,13 @@ const ActionButtons = () => {
                   className={`flex flex-col space-y-4 items-start w-full text-lg text-${textColor} mt-10`}
                 >
                   <Link href="/">Home</Link>
-                  <Link href="../../Prediction">Get Started</Link>
-                  <Link href="../../services/research">Researches</Link>
-                  <Link href="../../services/useCases">Case Studies</Link>
+                  <Link href="../../insights">Insights</Link>
+                  <Link href="../../services/research">References</Link>
+                  <Link href="../../services/useCases">MoA classifications</Link>
                   <Link href="../../services/diabetes-case-study" >Diabetes Case Study</Link>
                   
                   
                   
-                  <Link href="../../insights">Insights</Link>
                   <Link href="../../Prediction">Prediction</Link>
                   <Link href="../../overview">Overview</Link>
                 </div>

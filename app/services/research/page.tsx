@@ -24,7 +24,7 @@ function Research() {
       </h2>
       <div className=" grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12">
         <div className=" rounded-lg border dark:border-white mx-3 flex flex-col items-start">
-          <img src="/images/rang&dale.jpg" alt="Book Cover" width={300} height={450} className="mb-4 mx-32 mt-10 rounded-lg shadow-lg" />
+          <img src="/images/rang&dale.jpg" alt="Book Cover" width={300} height={450} className="mb-4   mt-10 ml-20 rounded-lg shadow-lg" />
           <h2 className="mb-2 text-xl font-bold text-foreground mx-10">Rang & Dale's Pharmacology (9th) edition</h2>
           <p className="mb-2 text-muted-foreground mx-10 ">Humphrey P. Rang, James M. Ritter, Rod J. Flower, Graeme Henderson</p>
           <p className="mb-4 text-muted-foreground mx-10 "> 2019</p>
@@ -45,7 +45,7 @@ function Research() {
 
         </div>
         <div className=" rounded-lg border dark:border-white mx-3 flex flex-col items-start">
-          <img src="/images/mp.jpg" alt="Book Cover" width={300} height={450} className="mb-4 mx-32 mt-10 rounded-lg shadow-lg" />
+          <img src="/images/mp.jpg" alt="Book Cover" width={300} height={450} className="mb-4 ml-20 mt-10 rounded-lg shadow-lg" />
           <h2 className="mb-2 text-xl font-bold text-foreground mx-10">Medical Pharmacology and Therapeutics (6th) edition</h2>
           <p className="mb-2 text-muted-foreground mx-10 ">Derek G. Waller, Anthony P. Sampson</p>
           <p className="mb-4 text-muted-foreground mx-10 ">  2021</p>
