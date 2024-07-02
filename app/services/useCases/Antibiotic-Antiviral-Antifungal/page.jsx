@@ -96,18 +96,7 @@ Bacterial infections (pneumonia, urinary tract infections), viral infections (in
 
       <div className="overflow-x-auto pb-10">
                 <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg ">
-Bacterial infections (pneumonia, urinary tract infections), viral infections (influenza, HIV), fungal infections (candidiasis, aspergillosis)..
-                        </p>
-                        </div>
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg ">
-Examples: Penicillin, amoxicillin, azithromycin, oseltamivir, fluconazole.
-                             </p>
-                        </div>
-                    </div>
+                  
 
       <table className="w-full max-w-md table-auto">
 

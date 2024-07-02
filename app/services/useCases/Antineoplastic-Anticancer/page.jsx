@@ -139,24 +139,7 @@ Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
 
       <div className="overflow-x-auto pb-10">
                 <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg ">
-
-Various cancers (breast cancer, lung cancer, leukemia, etc.).
-
-
-
-                        </p>
-                        </div>
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg "> 
-                          
-Examples: Paclitaxel, doxorubicin, imatinib, tamoxifen.
-
-                        </p>
-                        </div>
-                    </div>
+                  
 
       <table className="w-full max-w-md table-auto">
 

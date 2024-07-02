@@ -108,24 +108,7 @@ Examples: Albuterol, fluticasone, montelukast, theophylline.
 
       <div className="overflow-x-auto pb-10">
                 <h2 className="text-3xl font-semibold mb-4">Drugs</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg">
-
-
-Asthma, chronic obstructive pulmonary disease (COPD), cystic fibrosis.
-
-
-                        </p>
-                        </div>
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg"> 
-                          
-Examples: Albuterol, fluticasone, montelukast, theophylline.
-
-                        </p>
-                        </div>
-                    </div>
+                  
 
       <table className="w-full max-w-md table-auto">
 

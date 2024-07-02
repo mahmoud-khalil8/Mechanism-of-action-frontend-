@@ -82,25 +82,7 @@ Pain management for various conditions (post-surgery, chronic pain, etc.).
 
       <div className="overflow-x-auto pb-10">
                 <h2 className="text-3xl font-semibold mb-4 ">Drugs</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg ">
-
-
-Pain management for various conditions (post-surgery, chronic pain, etc.).
-
-
-                        </p>
-                        </div>
-                        <div className="border p-4 rounded-lg bg-gray-50 dark:bg-gray-700">
-                        <p className="text-lg "> 
-                          Examples: Lidocaine, morphine, tramadol, acetaminophen.
-
-
-                        </p>
-                        </div>
-                    </div>
-
+                 
       <table className="w-full max-w-md table-auto">
 
 <tbody>
