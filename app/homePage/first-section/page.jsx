@@ -15,7 +15,7 @@ const FirstSection = () => {
             for Discovery
           </div>
 
-          <p className={styles.paragraph}>
+          <p className={ `${styles.paragraph} dark:text-white `}>
             Welcome to our exploration of drug mechanisms of action (MoA), where understanding how a drug works
           </p>
           <p className={styles.paragraph}>

@@ -37,22 +37,25 @@ function Sidebar() {
   }, []);
 
   return (
-    <div className="flex min-h-screen bg-gray-50 dark:bg-gray-950">
+    <div className={ `${styles.contLarge} bg-gray-50 dark:bg-gray-950`}>
       <div>
-        <nav className={`md:flex md:flex-col md:w-64 border-r border-gray-200 p-4 overflow-y-auto fixed top-0 left-0 transition-transform duration-300 z-10 ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} dark:border-gray-800`}>
+        <nav className={` ${styles.navRes}md:flex md:flex-col md:w-64 p-4 overflow-y-auto fixed top-0 left-0 transition-transform duration-300 z-10 ${isMenuOpen ? 'translate-x-0' : '-translate-x-full'} dark:border-gray-800`}>
 
           <div className={`${styles.nav} grid md:gap-2.5 md:grid-cols-1 lg:grid-cols-none lg:gap-0`}>
-            <header className="flex items-center justify-between h-14 px-6 ml-30 mb-12 border-b border-gray-300 dark:border-gray-700 bg-gray-100/40 dark:bg-gray-800/40">Table of Content</header>
-            <a href="#sectionOne" className={`${styles.navlink} ${activeSection === "sectionOne" ? styles.active : ""}`}>Categorical Features</a>
-            <a href="#sectionTwo" className={`${styles.navlink} ${activeSection === "sectionTwo" ? styles.active : ""}`}>Gene Expression Levels Features</a>
-            <a href="#sectionThree" className={`${styles.navlink} ${activeSection === "sectionThree" ? styles.active : ""}`}>Cell Viability Features</a>
-            <a href="#sectionFour" className={`${styles.navlink} ${activeSection === "sectionFour" ? styles.active : ""}`}>Target Variables</a>
+            <header className="flex items-center justify-between h-14 px-6 ml-30 mb-12 border-b border-gray-300 dark:border-gray-700 bg-gray-100/40 dark:bg-gray-800/40">
+              <button className="md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)}>Menu</button>
+              <span>Table of Content</span>
+            </header>
+            <a href="#sectionOne" className={`${styles.navlink} ${activeSection === "sectionOne" ? styles.active : ""}`} onClick={() => setIsMenuOpen(false)}>Categorical Features</a>
+            <a href="#sectionTwo" className={`${styles.navlink} ${activeSection === "sectionTwo" ? styles.active : ""}`} onClick={() => setIsMenuOpen(false)}>Gene Expression Levels Features</a>
+            <a href="#sectionThree" className={`${styles.navlink} ${activeSection === "sectionThree" ? styles.active : ""}`} onClick={() => setIsMenuOpen(false)}>Cell Viability Features</a>
+            <a href="#sectionFour" className={`${styles.navlink} ${activeSection === "sectionFour" ? styles.active : ""}`} onClick={() => setIsMenuOpen(false)}>Target Variables</a>
           </div>
 
         </nav>
       </div>
-      <main className={`${styles.content} flex-1 py-4 md:py-6 lg:py-12 md:pl-64 pr-8`}>
-        <div className="max-w-3xl mx-auto grid gap-4">
+      <main className={`${styles.contentLarge}  md:py-6 lg:py-12 md:pl-64 `}>
+        <div className={styles.sectionsLarge}>
           <div id="sectionOne">
             <SectionOne />
           </div>

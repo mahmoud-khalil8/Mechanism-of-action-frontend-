@@ -86,7 +86,7 @@
 }
 .table_container {
   margin-top: 20px;
-  margin-left: 20rem;
+    
 }
 
 /* Define styles for table headings */
@@ -96,11 +96,18 @@
 }
 
 /* Define styles for table rows */
-.table_row {
-}
 
 /* Define styles for table cells */
 .table_cell {
   padding: 8px;
   border: 1px solid #ccc;
+}
+@media (max-width: 640px) {
+  .table_container {
+  overflow-x: auto;
+      border-collapse: collapse;
+}
+
+
+
 }

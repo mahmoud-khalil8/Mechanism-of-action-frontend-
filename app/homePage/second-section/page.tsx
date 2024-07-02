@@ -147,75 +147,6 @@ const SecondSection = () => {
       <div className="absolute inset-0 z-[-1] bg-gradient-to-br from-[#5098d8] to-[#923993] opacity-20 blur-[100px]" />
     </div>
     
-    
-      {/* <div className="w-full  mb-16 bg-zinc-50 p-8 dark:bg-gray-950">
-        <div className="container px-4 md:px-6">
-          <div className="pt-20 flex flex-col items-center space-y-4 md:space-y-6 md:flex-row md:items-start md:space-x-6 lg:space-x-12">
-            
-            <div className="w-full md:w-1/3 md:mt-0 md:flex md:items-center">
-              <div className="rounded-lg border border-gray-200 bg-gray-50 w-full aspect-video overflow-hidden dark:border-gray-800 dark:bg-gray-950">
-                <video className="w-full rounded-xl opacity-90" width={570} height={240} autoPlay muted loop>
-                  <source src="/content/hero-1.mp4" type="video/mp4" />
-                </video>
-              </div>
-            </div>            
-     
-<div className="w-full md:w-2/3">
-  <div className="dark:bg-gray-950 rounded-lg p-6 shadow-md">
-    <div className="bg-gradient-to-r from-blue-800 to-yellow-500 bg-clip-text text-transparent text-4xl md:text-4xl font-bold pb-10">
-      How to Use Our Tool
-    </div>
-    <p className="text-gray-500 md:text-xl dark:text-gray-400">
-      Follow these simple steps to effectively use our data analysis and visualization tool.
-    </p>
-    <div className="grid gap-4 md:gap-8 mt-6">
-      <div className="grid gap-2">
-        <div className="font-medium">1. Upload Your Dataset</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Click the "Upload" button, select your CSV file, and click "Open" to upload your dataset.
-        </p>
-      </div>
-      <div className="grid gap-2">
-        <div className="font-medium">2. View Dataset Details</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          After uploading, view a summary of your dataset, including the number of rows, columns, and data points.
-        </p>
-      </div>
-      <div className="grid gap-2">
-        <div className="font-medium">3. Analyze the Data</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Our tool preprocesses your data and generates predictions using our models. View a sample of the prediction results.
-        </p>
-      </div>
-      <div className="grid gap-2">
-        <div className="font-medium">4. Visualize Data</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Choose a column to visualize and view graphs showing distributions and patterns in your data.
-        </p>
-      </div>
-      <div className="grid gap-2">
-        <div className="font-medium">5. Download Results</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Click the "Download" button to save the prediction results as a CSV file on your computer.
-        </p>
-      </div>
-      <div className="grid gap-2">
-        <div className="font-medium">6. Explore Additional Features</div>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          View the top 20 and lowest 20 most frequently predicted targets in your dataset.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-
-            
-          </div>
-        </div>
-      </div>
-       */}
-
-
 
 
 
@@ -337,7 +268,7 @@ const SecondSection = () => {
             >
               <div
                 className="
-                  text-gray-600 text-3xl font-bold
+                  text-3xl font-bold
                 "
               >
                 <Image
@@ -349,11 +280,7 @@ const SecondSection = () => {
                 />
                 <div>
                   <div
-                    className="text-2xl pb-4 bg-gradient-to-t
-                      from-black
-                      to-gray-400
-                      bg-clip-text
-                      text-transparent
+                    className="text-2xl pb-4 
                     "
                   >
                     {feature.name}
